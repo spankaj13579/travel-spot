@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
 @font-face {
   font-family: "MrAlex-Bold";
-  src: url(./font/MrAlex-Bold/MrAlex-Bold.ttf);
+  src: url(font/MrAlex-Bold/MrAlex-Bold.ttf);
 }
 * {
   margin: 0;
@@ -116,7 +116,7 @@ body .container .landing-page .background-image {
   left: 0;
   bottom: 0;
   right: 0;
-  background: url(./assets/extrawide/bitmap_22@2x.png);
+  background: url(assets/extrawide/bitmap_22@2x.png);
   background-size: cover;
   background-position: center;
   filter: contrast(1.1) brightness(0.7);
@@ -202,7 +202,7 @@ body .container .landing-page .hero-section .hero-heading {
   letter-spacing: normal;
 }
 body .container .biggest-fold {
-  background: url(./assets/extrawide/group-6.png);
+  background: url(assets/extrawide/group-6.png);
   background-size: cover;
   background-position: center;
 }
@@ -374,7 +374,7 @@ body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards
 }
 body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card {
   position: relative;
-  background: url(./assets/extrawide/bitmap_11@2x.png);
+  background: url(assets/extrawide/bitmap_11@2x.png);
   height: 24rem;
   width: auto;
   -o-object-fit: cover;
@@ -384,7 +384,7 @@ body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards
   background-repeat: no-repeat;
 }
 body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card:nth-child(2) {
-  background: url(./assets/extrawide/bitmap_10@2x.png);
+  background: url(assets/extrawide/bitmap_10@2x.png);
   -o-object-fit: cover;
      object-fit: cover;
   background-size: cover;
@@ -392,7 +392,7 @@ body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards
   background-repeat: no-repeat;
 }
 body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card:nth-child(3) {
-  background: url(./assets/extrawide/bitmap_9@2x.png);
+  background: url(assets/extrawide/bitmap_9@2x.png);
   -o-object-fit: cover;
      object-fit: cover;
   background-size: cover;
