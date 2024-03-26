@@ -1,0 +1,702 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+@font-face {
+  font-family: "MrAlex-Bold";
+  src: url(/font/MrAlex-Bold/MrAlex-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #128b57 #e4cb45;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 0.813rem;
+  color: #ffffff;
+  line-height: 120%;
+}
+body .container .shop-button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Heebo", sans-serif;
+  font-weight: 600;
+  font-size: 0.813rem;
+  color: #ffffff;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-align: center;
+  padding: 0.87rem 5.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 1.7rem;
+  display: inline-block;
+}
+body .container .shop-button:hover {
+  background-color: rgba(255, 255, 255, 0.0666666667);
+}
+body .container .shop-underline-sq {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Heebo", sans-serif;
+  font-weight: 600;
+  font-size: 0.813rem;
+  color: #ffffff;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-align: center;
+  margin-top: 3.188rem;
+  border-radius: unset;
+  border: unset;
+  border-bottom: 1px solid #ffffff;
+  padding: 0.7rem 2.8rem;
+}
+body .container .shop-underline-sq:hover {
+  color: #e4cb45;
+  border-color: #e4cb45;
+}
+body .container .icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.125rem;
+}
+body .container .icons img {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body .container .no {
+  display: none;
+}
+body .container .green-nav {
+  background: #128b57;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 15vw;
+  gap: 10px;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ffffff;
+}
+body .container .green-nav .logo a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body .container .green-nav .minor-nav {
+  display: flex;
+  list-style-type: none;
+  gap: 3.3rem;
+}
+body .container .green-nav .minor-nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body .container .landing-page {
+  position: relative;
+  height: calc(100dvh - 34px);
+}
+body .container .landing-page .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url(/assets/extrawide/bitmap_22@2x.png);
+  background-size: cover;
+  background-position: center;
+  filter: contrast(1.1) brightness(0.7);
+  z-index: -1;
+}
+body .container .landing-page .nav-majore {
+  padding: 0 18vw;
+}
+body .container .landing-page .nav-majore .navigation {
+  padding: 1.75rem 0;
+  display: flex;
+  gap: 4rem;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 0.813rem;
+  color: #ffffff;
+}
+body .container .landing-page .nav-majore .navigation::before, body .container .landing-page .nav-majore .navigation::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 38%;
+  background-color: #ffffff;
+}
+body .container .landing-page .nav-majore .navigation::after {
+  left: unset;
+  right: 0;
+}
+body .container .landing-page .nav-majore .navigation li {
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1.08px;
+}
+body .container .landing-page .nav-majore .navigation li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+body .container .landing-page .nav-majore .navigation li.li-with-arrow {
+  display: flex;
+  align-items: center;
+}
+body .container .landing-page .nav-majore .navigation li.li-with-arrow img {
+  display: inline-block;
+  margin-left: 1.48rem;
+  transform: rotate(90deg);
+}
+body .container .landing-page .nav-majore .navigation li.li-with-arrow:hover img {
+  transform: rotate(-90deg);
+}
+body .container .landing-page .hero-section {
+  height: calc(100% - 76px);
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+body .container .landing-page .hero-section .mini-heading {
+  font-family: "Heebo", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  letter-spacing: 1.5px;
+}
+body .container .landing-page .hero-section .hero-heading {
+  font-family: "MrAlex-Bold", arial;
+  font-weight: 500;
+  font-size: 5.625rem;
+  color: #ffffff;
+  line-height: 5.625rem;
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+body .container .biggest-fold {
+  background: url(/assets/extrawide/group-6.png);
+  background-size: cover;
+  background-position: center;
+}
+body .container .biggest-fold .our-services {
+  padding-top: 4.938rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 0.813rem;
+  color: #063514;
+  text-transform: uppercase;
+}
+body .container .biggest-fold .our-services .small {
+  letter-spacing: 1.08px;
+}
+body .container .biggest-fold .our-services .main-heading {
+  font-size: 3.125rem;
+  line-height: 3.125rem;
+  margin-top: 1.1rem;
+}
+body .container .biggest-fold .our-services .shop-button {
+  background-color: #063514;
+  border-color: #063514;
+  margin-top: 2.1rem;
+}
+body .container .biggest-fold .explore-destination-section {
+  width: 70vw;
+  height: auto;
+  margin: 7.3rem auto auto auto;
+  position: relative;
+}
+body .container .biggest-fold .explore-destination-section img {
+  width: 100%;
+  height: auto;
+}
+body .container .biggest-fold .explore-destination-section .overlay-div {
+  background-color: rgba(18, 139, 87, 0.8);
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  padding: 5% 15%;
+  text-align: center;
+  border-bottom: 10px solid #e4cb45;
+}
+body .container .biggest-fold .explore-destination-section .overlay-div .small {
+  font-size: 0.813rem;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  margin-bottom: 0.68rem;
+}
+body .container .biggest-fold .explore-destination-section .overlay-div .main-heading {
+  font-size: 3.125rem;
+  line-height: 3.125rem;
+  text-transform: uppercase;
+  margin-bottom: 1.31rem;
+}
+body .container .biggest-fold .explore-destination-section .overlay-div .desc {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: normal;
+}
+body .container .biggest-fold .explore-destination-section .overlay-div .shop-button {
+  margin-top: 3.188rem;
+  border-radius: unset;
+  border: unset;
+  border-bottom: 1px solid #ffffff;
+  padding: 0.7rem 2.8rem;
+}
+body .container .biggest-fold .find-tour-tickets {
+  width: 100%;
+  position: relative;
+  margin: 3.7rem auto auto;
+  height: 32rem;
+  text-align: center;
+}
+body .container .biggest-fold .find-tour-tickets .left {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  z-index: 1;
+  right: 35%;
+}
+body .container .biggest-fold .find-tour-tickets .left .overlay-div {
+  width: 100%;
+  padding: 6% 15vw;
+  background-color: #128b57;
+  border-right: 10px solid #e4cb45;
+}
+body .container .biggest-fold .find-tour-tickets .left .overlay-div .small {
+  font-size: 0.813rem;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  margin-bottom: 0.68rem;
+}
+body .container .biggest-fold .find-tour-tickets .left .overlay-div .main-heading {
+  font-size: 3.125rem;
+  line-height: 3.125rem;
+  text-transform: uppercase;
+  margin-bottom: 1.31rem;
+}
+body .container .biggest-fold .find-tour-tickets .left .overlay-div .desc {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: normal;
+}
+body .container .biggest-fold .find-tour-tickets .left .overlay-div .shop-underline-sq {
+  margin-top: 5%;
+}
+body .container .biggest-fold .find-tour-tickets .right {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  bottom: 0;
+}
+body .container .biggest-fold .find-tour-tickets .right img {
+  height: 100%;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
+body .container .biggest-fold .find-your-next-wrapper {
+  margin-top: 4.6rem;
+  position: relative;
+}
+body .container .biggest-fold .find-your-next-wrapper .find-your-next {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+body .container .biggest-fold .find-your-next-wrapper .find-your-next .card {
+  background-color: #ffffff;
+  color: #063514;
+  padding: 4.188rem 4.688rem 29rem 3.688rem;
+  width: 36.688rem;
+}
+body .container .biggest-fold .find-your-next-wrapper .find-your-next .card .small {
+  font-size: 0.813rem;
+  letter-spacing: 1.08px;
+  text-transform: Uppercase;
+  border-block-start: 0.5rem;
+}
+body .container .biggest-fold .find-your-next-wrapper .find-your-next .card .main-heading {
+  font-size: 3.125rem;
+  line-height: 3.125rem;
+  text-transform: uppercase;
+  margin-bottom: 0.62rem;
+}
+body .container .biggest-fold .find-your-next-wrapper .find-your-next .card .desc {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: normal;
+}
+body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+}
+body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  overflow-x: auto;
+}
+body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card {
+  position: relative;
+  background: url(/assets/extrawide/bitmap_11@2x.png);
+  height: 24rem;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card:nth-child(2) {
+  background: url(/assets/extrawide/bitmap_10@2x.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card:nth-child(3) {
+  background: url(/assets/extrawide/bitmap_9@2x.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card .overlay .heading {
+  font-size: 2.5rem;
+}
+body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card .overlay .shop-underline-sq {
+  margin-top: 1rem;
+}
+body .container footer {
+  padding: 5rem 0 5rem 0;
+  background-color: #063514;
+  text-align: center;
+}
+body .container footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+body .container footer .flex {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+body .container footer .flex .links {
+  text-align: left;
+}
+body .container footer .flex .links .head {
+  font-size: 1rem;
+  letter-spacing: 1.08px;
+  margin-bottom: 1rem;
+}
+body .container footer .flex .links ul li {
+  list-style-type: none;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  text-transform: capitalize;
+  font-weight: normal;
+  filter: opacity(0.5);
+}
+body .container footer .newsletter {
+  margin: 1.5rem 0;
+}
+body .container footer .newsletter .head {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+body .container footer .newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+body .container footer .newsletter form input[type=text] {
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  text-transform: lowercase;
+  width: 20rem;
+  outline: none;
+  border: none;
+}
+body .container footer .newsletter form input[type=submit] {
+  padding: 0.8rem 2.5rem;
+  border-radius: 50px;
+  background: #128b57;
+  outline: none;
+  border: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 0.813rem;
+  color: #ffffff;
+  letter-spacing: 1.08px;
+  cursor: pointer;
+}
+body .container footer .bottom-img {
+  width: 80%;
+  margin: auto;
+  margin-top: 3.5rem;
+}
+body .container footer .reserved {
+  font-size: 0.625rem;
+  filter: opacity(0.5);
+  margin-top: 2rem;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1120px) {
+  body .container .landing-page .hero-section {
+    width: 80%;
+  }
+  body .container .landing-page .hero-section .hero-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  body .container .biggest-fold .our-services {
+    width: unset;
+    padding-top: 3rem;
+  }
+  body .container .biggest-fold .explore-destination-section {
+    width: 90vw;
+  }
+  body .container .biggest-fold .explore-destination-section .overlay-div .main-heading {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  body .container .biggest-fold .explore-destination-section .overlay-div .desc {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+  body .container .biggest-fold .explore-destination-section .overlay-div .shop-underline-sq {
+    margin-top: 5%;
+  }
+  body .container .biggest-fold .find-tour-tickets {
+    margin-top: 3rem;
+    height: 24rem;
+  }
+  body .container .biggest-fold .find-tour-tickets .right {
+    height: 24rem;
+  }
+  body .container .biggest-fold .find-tour-tickets .left .overlay-div {
+    padding: 5% 7vw;
+  }
+  body .container .biggest-fold .find-tour-tickets .left .overlay-div .main-heading {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  body .container .biggest-fold .find-tour-tickets .left .overlay-div .desc {
+    font-size: 1.2rem;
+  }
+  body .container .biggest-fold .find-your-next-wrapper .find-your-next .card {
+    padding-bottom: 23rem;
+  }
+  body .container .biggest-fold .find-your-next-wrapper .find-your-next .card .main-heading {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  body .container .biggest-fold .find-your-next-wrapper .find-your-next .card .desc {
+    font-size: 1rem;
+  }
+  body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card {
+    height: 18rem;
+  }
+  body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card .overlay .heading {
+    font-size: 2rem;
+  }
+  body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards .image-card .overlay .shop-underline-sq {
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 720px) {
+  body .container {
+    position: relative;
+  }
+  body .container .icons {
+    overflow-x: auto;
+    gap: 3rem;
+  }
+  body .container .no {
+    display: block;
+  }
+  body .container .hide {
+    display: none !important;
+  }
+  body .container .green-nav {
+    flex-direction: column;
+    position: relative;
+  }
+  body .container .landing-page #ham {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+  }
+  body .container .landing-page #ham div {
+    width: 35px;
+    height: 4px;
+    background-color: #ffffff;
+    margin: 6px 0;
+  }
+  body .container .landing-page .nav-majore .navigation {
+    flex-direction: column;
+    position: absolute;
+    background: rgba(18, 139, 87, 0.8);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding-left: 2rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  body .container .landing-page .nav-majore .navigation #close {
+    position: absolute;
+    right: 1rem;
+    font-size: 1.5rem;
+    top: 1rem;
+    transition: transform ease-in-out 0.3s;
+  }
+  body .container .landing-page .nav-majore .navigation #close:hover {
+    transform: scale(1.2rem);
+  }
+  body .container .landing-page .hero-section {
+    height: 100%;
+    align-items: center;
+  }
+  body .container .landing-page .hero-section .hero-heading {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+  }
+  body .container .landing-page .hero-section .mini-heading {
+    font-size: 0.75rem;
+    letter-spacing: 1.13px;
+    text-align: center;
+    margin-bottom: 1.2rem;
+  }
+  body .container .landing-page .hero-section .shop-button {
+    margin-top: 3.2rem;
+  }
+  body .container .biggest-fold .our-services {
+    padding-top: 3.6rem;
+  }
+  body .container .biggest-fold .our-services .small {
+    font-size: 0.8rem;
+  }
+  body .container .biggest-fold .our-services .main-heading {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: #128b57;
+  }
+  body .container .biggest-fold .our-services .shop-button {
+    margin-top: 1.7rem;
+  }
+  body .container .biggest-fold .explore-destination-section {
+    width: unset;
+    margin-top: 4rem;
+    position: unset;
+  }
+  body .container .biggest-fold .explore-destination-section .overlay-div {
+    position: unset;
+    width: 100%;
+    transform: unset;
+    margin: unset;
+    padding: 15% 5%;
+    background: #128b57;
+  }
+  body .container .biggest-fold .find-tour-tickets {
+    position: unset;
+    height: unset;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3.7rem;
+  }
+  body .container .biggest-fold .find-tour-tickets .left {
+    position: unset;
+  }
+  body .container .biggest-fold .find-tour-tickets .left .overlay-div {
+    border-right: unset;
+    border-bottom: 10px solid #e4cb45;
+    padding: 15% 5%;
+  }
+  body .container .biggest-fold .find-tour-tickets .right {
+    position: unset;
+    height: unset;
+  }
+  body .container .biggest-fold .find-tour-tickets .right img {
+    width: 100%;
+    height: auto;
+  }
+  body .container .biggest-fold .find-your-next-wrapper {
+    margin-top: 3.6rem;
+  }
+  body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper {
+    position: unset;
+  }
+  body .container .biggest-fold .find-your-next-wrapper .find-your-next .card {
+    width: 90%;
+    margin: auto;
+    padding: 4.8rem 1rem;
+    text-align: center;
+  }
+  body .container .biggest-fold .find-your-next-wrapper .image-card-wrapper .cards {
+    grid-template-columns: 1fr;
+  }
+  body .container footer .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .container footer .newsletter form {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

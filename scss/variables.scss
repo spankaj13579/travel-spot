@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@font-face {
+    font-family: "MrAlex-Bold";
+    src: url(/font/MrAlex-Bold/MrAlex-Bold.ttf);
+}
+
+$green-b57: #128b57;
+$white: #ffffff;
+$white-lt: #ffffff11;
+$dark-514: #063514;
+$green-08: rgba(18, 139, 87, 0.8);
+$yellow: #e4cb45;
+// font 
+$hebbo: "Heebo", sans-serif;
+$mr-alex:  "MrAlex-Bold", arial;
+@mixin font($color, $ff, $fz, $fw) {
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fz;
+    color: $color;
+    }
