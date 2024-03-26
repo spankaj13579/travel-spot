@@ -98,7 +98,7 @@ body{
                 left: 0;
                 bottom: 0;
                 right: 0;
-                background: url(assets/extrawide/bitmap_22@2x.png);
+                background: url(./assets/extrawide/bitmap_22@2x.png);
                 background-size: cover;
                 background-position: center;
                 filter: contrast(1.1) brightness(0.7);
@@ -176,7 +176,7 @@ body{
             }
         }
         .biggest-fold{
-            background: url(/assets/extrawide/group-6.png);
+            background: url(./assets/extrawide/group-6.png);
             background-size: cover;
             background-position: center;
             .our-services{
@@ -342,7 +342,7 @@ body{
                     overflow-x: auto;
                     .image-card{
                         position: relative;
-                        background: url(/assets/extrawide/bitmap_11@2x.png);
+                        background: url(./assets/extrawide/bitmap_11@2x.png);
                         height: 24rem;
                         width: auto;
                         object-fit: cover;
@@ -350,14 +350,14 @@ body{
                         background-position: center;
                         background-repeat: no-repeat;
                         &:nth-child(2){
-                            background: url(/assets/extrawide/bitmap_10@2x.png);
+                            background: url(./assets/extrawide/bitmap_10@2x.png);
                             object-fit: cover;
                             background-size: cover;
                             background-position: center;
                             background-repeat: no-repeat;
                         }
                         &:nth-child(3){
-                            background: url(/assets/extrawide/bitmap_9@2x.png);
+                            background: url(./assets/extrawide/bitmap_9@2x.png);
                             object-fit: cover;
                             background-size: cover;
                             background-position: center;
